@@ -7,7 +7,7 @@ function Navbar() {
     
     return (
         <nav className='Navabar'>
-            <h2>Serch for Movies</h2>
+            <h2>Search for Movies</h2>
             <form onSubmit={(e) =>{e.preventDefault()}}>
                 <div>
                     <input 

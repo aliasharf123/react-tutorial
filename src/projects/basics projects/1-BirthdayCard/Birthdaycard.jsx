@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import List from './person';
 import data from "./data"
+import '../../../index.css'
 function Birthday() {
  const [value ,setValue] = useState(data.length);
  const [LISt , setList] = useState(List);

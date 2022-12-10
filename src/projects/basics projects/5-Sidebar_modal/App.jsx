@@ -3,6 +3,7 @@ import AppProvider from './context';
 import Home from './Home';
 import Modal from './modal';
 import SideBar from './sidebar';
+import './model_sidebar.css'
 
 function App() {
     return ( 

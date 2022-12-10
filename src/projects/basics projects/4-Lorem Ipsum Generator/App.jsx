@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Text from './data';
-
+import './lorem.css'
 function LoremIpusum(){
     const [number , setNumber] =useState("");
     const [text , setText] =useState([]);

@@ -12,14 +12,15 @@ function SingleMovie() {
         )
     }
     const {Title , Poster , Rated , Plot} = data ;
-    console.log(data)
     return ( 
         <div className='movie'>
             <img src={(Poster === "N/A") ? defaultImage : Poster } alt={Title} />
             <div className='Movie-info'>
                 <h1>{Title}</h1>
                 <p>{Plot}</p>
-                <p>{Rated}</p>
+                <div className={`rated ${Rated}`}>
+                    <p>{Rated}</p>
+                </div> 
                 <Link to='/'>
                 <button>Back Home</button>
                 </Link>

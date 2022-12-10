@@ -1,6 +1,7 @@
 import React, { useState} from 'react';
 import reviews from './data';
 import Review from './reveiw';
+import './indexEx.css'
 
 function Reviews() {
     const [reviewer , setReviewer] = useState(reviews[0]);

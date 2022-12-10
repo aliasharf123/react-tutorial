@@ -1,4 +1,6 @@
-
+body{
+    background-color: #f28ab2;
+}
 .book div{
     padding: 30px ;
     display: flex;

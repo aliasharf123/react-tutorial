@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Loading from './Loading'
 import Tours from './tours';
+import './indexTour.css'
 
 const url = 'https://course-api.com/react-tours-project'
 
@@ -8,7 +9,6 @@ function Tour() {
     const [tours , setTours] =useState([]);
     const [IsLoading , setIsLoading] = useState(true);
     const [IsError , setIsError] =useState(false);
-
     const notInterseted =(id) => {
         const newtours = tours.filter((tour) => {return (tour.id !== id)})
        setTours(newtours);

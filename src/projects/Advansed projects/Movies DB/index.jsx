@@ -5,16 +5,17 @@ import Navbar from './Navbar';
 import SingleMovie from './Movie';
 import Movies from './Movies';
 import Error from './Error'
-
+//import '../src/projects/Advansed projects/Movies DB/movies.css'
+import './movies.css'
 function Index() {
 
     return ( 
         <AppContext>
              <Router>
                 <Routes>
-                <Route  path='/' element={<Movies/>}/>
-                <Route path='/movie/:id' element={<SingleMovie/>}/>
-                <Route path='*' element={<Error/>}/>
+                    <Route path='/' element={<Movies/>}/>
+                    <Route path='/movie/:id' element={<SingleMovie/>}/>
+                    <Route path='*' element={<Error/>}/>
                 </Routes>
              </Router>
         </AppContext> 
