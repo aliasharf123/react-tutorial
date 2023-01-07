@@ -19,7 +19,7 @@ function MultipleInputs() {
         setPerson({id: "" , FirstName: "" , email:"", age:""})
     }
     const handelChange = (e) =>{
-        const name = e.target.name ;  // make acces to input name 
+        const name = e.target.name ;  // make accees to input name 
         const value = e.target.value ;
         setPerson({...person , [name]: value }); //dynamix object properites
     }

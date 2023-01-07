@@ -67,6 +67,7 @@ function Tour() {
     else{
         return ( 
             <main>
+                <a href="https://moviedbalis.netlify.app/">ssss</a>
                 <Tours tours = {tours}  remove = {notInterseted}></Tours>
             </main>
          );
